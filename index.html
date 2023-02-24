@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="./main.js"> </script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="contenedor_boton_jugar">
+    <button onclick="jugar()"> JUGAR </button>
+  </div>
+  <div class="contenedor_botones">
+    <button onclick="piedra()"id="piedra"class="piedra"> <img src="https://img.icons8.com/ios-filled/50/null/rock.png"/></button>
+    <button onclick="papel()"id="papel" class="papel"> <img src="https://img.icons8.com/ios-filled/50/null/matt-paper.png"/></button>
+    <button onclick="tijera()"id="tijera" class="tijera"> <img src="https://img.icons8.com/ios-filled/50/null/barber-scissors.png"/> </button>
+  </div>
+  <div class="contenedor_resultados_datos">
+    <div class="contenedor_resultados">
+      <div id="resultado_h"class="resultado_"> 0</div>
+      <p>
+        Humano
+      </p>
+    </div>
+    <div class="contenedor_resultados">
+      <div id="resultado_m" class="resultado_"> 0</div>
+      <p>
+        Machine
+      </p>
+    </div>
+  </div>
+</body>
+</html>
